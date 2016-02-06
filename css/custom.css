@@ -23,13 +23,22 @@ body {
 	text-align: center;
 	text-indent: 100px;
 	margin: auto;
+	padding-top: 20px;
+	padding-bottom: 10px;
 
 }
 
 .jumbotron{
 	background-color: black;
 	color: black;
+	margin: auto;
+	line-height: 3em;
+}
 
+.container{
+	margin:auto;
+	padding-top: 30px;
+	padding-bottom: 10px;
 }
 
 
@@ -66,8 +75,12 @@ body {
 	padding-bottom: 30px;
 }
 
+#citizens-of-sea{
+	color: rgb(0, 153, 255);
+}
 
-
-
+#knowlton-write-up{
+	margin-left: 10px;
+}
 
 }

@@ -32,7 +32,14 @@ body {
 	background-color: black;
 	color: black;
 	margin: auto;
-	line-height: 3em;
+	line-height: 2;
+}
+
+.jumbotron2{
+	background-color: black;
+	color: black;
+	margin: auto;
+	line-height: 2;
 }
 
 .container{
@@ -63,6 +70,12 @@ body {
 	color: white;
 
 }
+
+.jumborton img{
+	padding-right: 5px;
+	padding-top: 5px;
+    padding-bottom: 5px;
+}
 .button-lg{
 	text-align: center;
 }
@@ -82,5 +95,82 @@ body {
 #knowlton-write-up{
 	padding-left: 30px;
 }
+
+/*Responsive Styling*/
+
+@media (max-width: 1450px) {
+
+.jumbotron img {
+    width: 350px;
+    padding-right: 25px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+
+@media (max-width: 1300px) {
+
+.jumbotron img{
+	width: 300px;
+	padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.jumbotron p{
+	font-size: 18px;
+}
+
+	 }
+
+@media (max-width: 1199px) {
+
+.jumbotron2 img{
+	width: 275px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 25px;
+    margin-left: -30px; 
+}
+
+.jumbotron2 h1{
+	margin-left: 0px;
+	padding-left: 30px;
+	padding-bottom: 20px;
+	font-size: 50px;
+	color:white;
+	font-family: 'Pacifico', cursive;
+}
+
+.jumbotron2 p{
+	margin-left: 0px;
+	padding-left: 30px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+
+}
+
+.faq1 img{
+	width: 350px;
+    padding-top: 25px;
+ }
+
+.faq1 h3{
+	font-size: 35px;
+}
+
+.faq1 p{
+	font-family: 'Helvetica', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+
+}
+
+
+
+
+
+
 
 }

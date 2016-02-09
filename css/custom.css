@@ -168,8 +168,54 @@ body {
 }
 
 
+}
 
+@media (max-width: 991px) {
 
+.jumbotron h1 {
+    margin-top: -65px;
+    margin-bottom: 20px;
+    font-family: 'Pacifico', cursive;
+    text-align: left;
+    color: white;
+    font-size: 45px;
+}
+
+.jumbotron p{
+	font-size:16px;
+}
+.jumbotron h2 {
+	font-size:25px;
+}
+
+.container .col-md-2{
+	padding-top: 25px;
+}
+
+jumbotron2 img {
+    width: 250px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 25px;
+    margin-left: 0px;
+}
+.jumbotron2 h1 {
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-bottom: 15px;
+    font-size: 45px;
+    color: white;
+    font-family: 'Pacifico', cursive;
+
+}
+
+.jumbotron2 p {
+    margin-left: 0px;
+    padding-left: 0px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
 
 
 
